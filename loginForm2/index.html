@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" and dir="ltr">
+    <head>
+        <title>LoginForm</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" >
+        <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <form class="container">
+            <h1>Login</h1>
+            <div class="cont">
+                <img src="images/mail.png" class="icon">
+                <input type="text" class="inp" name="" placeholder="Enter Email" id="username">
+            </div>
+            <br>
+            <div class="cont">
+                <img src="images/lock.png" class="icon">
+                <input type="password" class="inp" name="" placeholder="Enter Password" id="password">
+            </div>
+            <div class="rem">
+                <input type="checkbox" name="tickbox" value="tick" class="checkbox">
+                <lable for="tickbox" id="lab">Remember me</lable><br>
+            </div>
+            <div class="login">
+                <input type="button" value="login" onclick="validate()">
+            </div>
+            <br> <br>
+            <p id="logop">or login with</p>
+            <div class="alter">
+                <div class="alt1">
+                    <div class="in-alt">
+                        <img src="images/facebook.png" class="icon-so">
+                        <input type="submit" value="Facebook" >
+                    </div>
+                        
+                </div>
+                <div class="alt1" id="goo">
+                    <div class="in-alt" id="goid">
+                        <img src="images/google.png" class="icon-so">
+                        <input type="submit" value="Google" >
+                    </div>
+                        
+                </div>
+            </div>
+            <br> <br> <br><br>
+            <p id="nm">Not a member?<a href="#">Sign up now</a></p>
+
+
+
+            
+        </form>
+
+    </body>
+</html>
